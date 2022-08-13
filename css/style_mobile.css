@@ -1,0 +1,89 @@
+body {
+    background-image: linear-gradient(to bottom, #599FEA, #1278E6, #003166);
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+#main {
+    max-width: 100%;
+    background-color:#599FEA;    
+    margin-left: -0.1%;
+    border-radius: 7px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.452);
+    
+}
+
+#main audio {
+    width: 20%;
+    margin-left: 85%;
+}
+
+header h1 h2 {
+    text-align:center;
+    color: #083666;
+}
+
+header img {
+    text-align: center;
+    width: 75%;
+}
+
+.texto {
+    text-indent: 3ch;
+    width: 90%;
+    margin-bottom: 2%;
+    margin-left: 4.5%;
+    color: #083666;
+    text-align: justify;
+}
+
+.botao {
+    margin-left: 5%;
+    box-shadow:inset 0px 1px 3px 0px #083666;
+	background-color:#599FEA;
+	border-radius:7px;
+	border:1px solid #1278E6;
+	display:inline-block;
+	cursor:pointer;
+	font-weight:bold;
+    padding:11px 15px;
+}
+
+.botao:hover {
+	background:linear-gradient(to bottom, #003166 5%, #0E5EB3 100%);
+	background-color:#083666;
+}
+.botao:active {
+	position:relative;
+	top:1px;
+}
+
+.sociais{
+    color: #083666;
+    width: 100%;
+    margin-left: -32%;
+}
+
+.sociais h2 {
+    margin-left: 10%;
+}
+
+footer{
+    text-align: center;
+    color: #599FEA;
+    font-style: italic;
+    background-image: url(../img/back.jpg);
+}
+
+
+a {
+    color: #083666;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.botao a {
+    color:black;
+} 
